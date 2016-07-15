@@ -22,7 +22,7 @@ namespace ConShadoSpa
         public static extern uint GetPixel(IntPtr hDC, int x, int y);
         static void Main(string[] args)
         {
-            Color colorToFind = Color.FromArgb(200, 193, 189);
+            Color colorToFind = Color.FromArgb(200, 194, 189);
             List<Point> points = new List<Point>()
 {
 new Point(495, 465),//Верх 
